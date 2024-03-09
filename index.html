@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>Used Cars Web</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="module" src="./js/app.js" defer></script>
+  </head>
+  <body>
+
+    <main>
+      <div class="container boxshape">
+        <div class="header_container boxshape">
+          <h1>Used Car For Sale</h1>
+        </div>
+        <div class="flex_container">
+          <div class="filter-container boxshape">
+            <h3>Please use filter below:</h3>
+            <div class="filter-section">
+              <label class="filter-label" for="minYear">Min Car Year: </label>
+              <select id="minYear" class="filter-input">
+                <option value=""></option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+              </select>
+            </div>
+
+            <br>
+
+            <div class="filter-container boxshape">
+              <label class="filter-label" for="maxYear">Max Car Year: </label>
+              <select id="maxYear" class="filter-input" name="maxYear">
+                <option value=""></option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+              </select>
+            </div>
+
+            <br>
+
+            <div class="filter-section">
+              <label class="filter-label" for="make">Car make: </label>
+              <select id="make" class="filter-select">
+                <option value="ALL">ALL</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Honda">Honda</option>
+                <option value="Ford">Ford</option>
+                <option value="Nissan">Nissan</option>
+                <option value="Chevrolet">Chevrolet</option>
+                <option value="Volkswagen">Volkswagen</option>
+                <option value="Hyundai">Hyundai</option>
+                <option value="Subaru">Subaru</option>
+                <option value="Mazda">Mazda</option>
+                <option value="Kia">Kia</option>
+                <option value="Dodge">Dodge</option>
+                <option value="Cadillac">Cadillac</option>
+                <option value="Jaguar">Jaguar</option>
+                <option value="Tesla">Tesla</option>
+                <option value="Porsche">Porsche</option>
+                <option value="Lexus">Lexus</option>
+                <option value="BMW">BMW</option>
+                >
+              </select>
+            </div>
+
+            <br>
+
+            <div class="filter-section">
+              <label class="filter-label" for="maxMileage">Max Car Mileage: </label>
+              <input type="number" id="maxMileage" placeholder="e.g. 15000" />
+            </div>
+
+            <br>
+
+            <div class="filter-section">
+              <label class="filter-label" for="maxPrice">Max Car Price: </label>
+              <input
+                type="number"
+                id="maxPrice"
+                class="filter-inputr"
+                placeholder="e.g. 25000"
+              />
+            </div>
+
+            <br>
+
+            <div class="filter-section">
+              <label class="filter-label">Color: </label>
+              <input
+                type="checkbox"
+                id="SilverColor"
+                class="filter-color"
+                value="Silver"
+              />
+              <label for="SilverColor">Silver</label>
+              <input
+                type="checkbox"
+                id="WhiteColor"
+                class="filter-color"
+                value="White"
+              />
+              <label for="WhiteColor">White</label>
+              <input
+                type="checkbox"
+                id="BlackrColor"
+                class="filter-color"
+                value="Black"
+              />
+              <label for="BlackColor">Black</label>
+              <input
+                type="checkbox"
+                id="BlueColor"
+                class="filter-color"
+                value="Blue"
+              />
+              <label for="BlueColor">Blue</label>
+              <input
+                type="checkbox"
+                id="RedColor"
+                class="filter-color"
+                value="Red"
+              />
+              <label for="RedColor">Red</label>
+              <input
+                type="checkbox"
+                id="GrayColor"
+                class="filter-color"
+                value="Gray"
+              />
+              <label for="GrayColor">Gray</label>
+              <input
+                type="checkbox"
+                id="GreenColor"
+                class="filter-color"
+                value="Green"
+              />
+              <label for="GreenColor">Green</label>
+            </div>
+            <br>
+            <button class="filter-btn" id="filterBtn">Filter</button>
+          </div>
+          
+          <div class="collectData">
+
+          </div>
+        </div>
+      </div>
+    </main>   
+    
+    <footer>
+      <h4>@@@Used Car Company</h4> 
+    </footer>
+  </body>
+</html>

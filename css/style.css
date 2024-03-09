@@ -1,0 +1,71 @@
+body{
+  padding: 20px;
+  padding-bottom: 120px;
+  background-color: rgb(204, 198, 198);
+}
+.boxshape {
+  background-color: rgb(180, 174, 174);
+}
+.cardshape {
+    background-color:rgb(209, 203, 203);
+    border-radius: 1vw;
+    margin:1vw;
+  }
+.header_container {
+  height: 8vh;
+  text-align: center;
+  padding: 1%;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+
+.flex_container {
+  display:flex;
+}
+.filter-container {
+  padding: 1%;
+  flex: 1;
+}
+.collectData {
+  flex: 3;
+}
+.collectData {
+  display: grid;
+  grid-template-columns: repeat(3, 25vw); 
+  grid-template-rows: repeat(auto, flex);
+  grid-gap:2vw;
+}
+
+
+.filter-btn{
+  font-family: verdana;
+  color: #e0adad;
+  font-size:18px;
+  background-color:#424B54;
+  border-radius: 10px;
+  padding: 10px 50px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+footer {
+  height: 8vh;
+  position:fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(204, 198, 198);
+  color: cadetblue;
+}
+.car-image {
+  width: 50%; 
+  height: 110px; 
+  object-fit: cover; 
+  margin-bottom: 20px; 
+}
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px; 
+}
